@@ -1,0 +1,20 @@
+{
+  "name": "generic-playwright-demo",
+  "version": "1.0.0",
+  "description": "Repository to hold all different types of testing implemented with the Playwright demo",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test tests/generic-example.spec.ts",
+    "test:fixture": "npx playwright test tests/generic-example-fixture.spec.ts",
+    "test": "npx playwright test",
+    "reports": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5"
+  }
+}

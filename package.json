@@ -4,8 +4,10 @@
   "description": "Repository to hold all different types of testing implemented with the Playwright demo",
   "main": "index.js",
   "scripts": {
-    "test:e2e": "npx playwright test tests/generic-example.spec.ts",
-    "test:fixture": "npx playwright test tests/generic-example-fixture.spec.ts",
+    "test:e2e": "npx playwright test tests/e2e/generic-example.spec.ts",
+    "test:fixture": "npx playwright test tests/e2e/generic-example-fixture.spec.ts",
+    "test:api": "npx playwright test tests/api/generic-example.spec.ts",
+    "test:api-fixture": "npx playwright test tests/api/generic-example-fixture.spec.ts",
     "test": "npx playwright test",
     "reports": "npx playwright show-report"
   },

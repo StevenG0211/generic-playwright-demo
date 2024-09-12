@@ -4,6 +4,9 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
+/**
+ * ? CONTROLLER: File to allocate al business logic for the API operations and therefore being utilized on test scripts/fixtures
+ */
 class UserController {
     readonly request: APIRequestContext;
 
